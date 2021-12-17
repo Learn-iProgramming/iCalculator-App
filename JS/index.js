@@ -1,6 +1,10 @@
 let calc = document.getElementById('calc'); 
 let btns = document.querySelectorAll('button');
+
+// Firstly in the input box calculated black
 let calcValue = '';
+
+// Iterate loop infinite
 for(let item of btns){
     item.addEventListener('click', (e)=>{
         // When click on the button then in button text show in the input box
